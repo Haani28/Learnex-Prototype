@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Learnex-Prototype/static/css/main.e42ab7b7.css",
+    "main.js": "/Learnex-Prototype/static/js/main.73d0f98c.js",
+    "index.html": "/Learnex-Prototype/index.html",
+    "main.e42ab7b7.css.map": "/Learnex-Prototype/static/css/main.e42ab7b7.css.map",
+    "main.73d0f98c.js.map": "/Learnex-Prototype/static/js/main.73d0f98c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e42ab7b7.css",
+    "static/js/main.73d0f98c.js"
+  ]
+}
