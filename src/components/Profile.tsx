@@ -20,7 +20,8 @@ import {
   GraduationCap,
   Star,
   Award,
-  UserCheck
+  UserCheck,
+  UserPlus
 } from 'lucide-react';
 
 export function Profile() {
@@ -36,6 +37,13 @@ export function Profile() {
     setUser({
       ...user,
       role: 'student'
+    });
+  };
+
+  const switchToMentor = () => {
+    setUser({
+      ...user,
+      role: 'teacher'
     });
   };
 
@@ -91,6 +99,25 @@ export function Profile() {
             >
               <GraduationCap className="mr-2" size={16} />
               Become Student
+            </Button>
+          </div>
+        </Card>
+      )}
+
+      {!isTeacher && (
+        <Card className="p-4 rounded-2xl border-border bg-card glow-card">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-semibold text-card-foreground">Switch to Mentor Mode</h3>
+              <p className="text-sm text-muted-foreground">Help other students learn and grow</p>
+            </div>
+            <Button 
+              onClick={switchToMentor}
+              size="sm"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-xl glow-button"
+            >
+              <UserPlus className="mr-2" size={16} />
+              Become Mentor
             </Button>
           </div>
         </Card>
