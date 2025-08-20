@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Learnex-Prototype/static/css/main.65ebb8f7.css",
-    "main.js": "/Learnex-Prototype/static/js/main.73d0f98c.js",
+    "main.js": "/Learnex-Prototype/static/js/main.165030ac.js",
     "index.html": "/Learnex-Prototype/index.html",
     "main.65ebb8f7.css.map": "/Learnex-Prototype/static/css/main.65ebb8f7.css.map",
-    "main.73d0f98c.js.map": "/Learnex-Prototype/static/js/main.73d0f98c.js.map"
+    "main.165030ac.js.map": "/Learnex-Prototype/static/js/main.165030ac.js.map"
   },
   "entrypoints": [
     "static/css/main.65ebb8f7.css",
-    "static/js/main.73d0f98c.js"
+    "static/js/main.165030ac.js"
   ]
 }
